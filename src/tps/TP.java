@@ -7,7 +7,6 @@ import main.BayesMain;
 import main.Chi2Main;
 import main.ClusteringMain;
 import main.SearchEngine;
-import mlearning.Clustering;
 import utils.Document;
 import utils.Class;
 
@@ -37,14 +36,7 @@ public final class TP {
 									 * (Precision, Recall, FMesure)	! Table printed via utils.EvaluationPrinter
 									 */
 		/*-----------------------------------------------------------*/
-		//		TP6		//
-		ClusteringMain.ALGO = Clustering.Algorithm.KMEANS;
-		ClusteringMain.main(args);
-		
-		/*-----------------------------------------------------------*/
-
-		//		TP7		//
-		ClusteringMain.ALGO = Clustering.Algorithm.HIERARCHICAL;
+		//		TP6 + TP7		//
 		ClusteringMain.main(args);
 		
 		/*-----------------------------------------------------------*/
